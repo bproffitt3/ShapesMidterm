@@ -26,7 +26,13 @@ public class Circle
         yPosition = 90;
         color = Canvas.getColor("blue");
     }    
-    
+    public Circle(int xpos, int ypos, int dia, Color col)
+    {
+        xPosition = xpos;
+        yPosition = ypos;
+        diameter = dia;
+        color = col;
+    }
     /**
      * Make this circle visible. If it was already visible, do nothing.
      */

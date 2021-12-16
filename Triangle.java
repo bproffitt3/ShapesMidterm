@@ -29,6 +29,13 @@ public class Triangle
         color = Canvas.getColor("green");
         isVisible = false;
     }
+    public Triangle(int xpos, int ypos, int hei, int wid, Color col){
+        xPosition=xpos;
+        yPosition=ypos;
+        height=hei;
+        width=wid;
+        color=col;
+    }
     
     /**
      * Make this triangle visible. If it was already visible, do nothing.

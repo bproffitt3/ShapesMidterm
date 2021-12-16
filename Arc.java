@@ -30,6 +30,14 @@ public class Arc
         extent = 120;
         color = Canvas.getColor("magenta");
     }
+    public Arc(int xpos, int ypos, int dia, int starAng, int exte, Color col){
+        xPosition = xpos;
+        yPosition = ypos;
+        diameter = dia;
+        startAngle = starAng;
+        extent = exte;
+        color = col;
+    }
     
     /**
      * Create an arc at a given position with specified color and shape
